@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github = process.env.GITHUB || "";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "false";
 global.devs = "923072380380";
 global.sudo = process.env.SUDO || "923319373288";
 global.owner = process.env.OWNER_NUMBER || "923319373288";
@@ -25,10 +25,10 @@ global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "true";
-global.disablegroup = process.env.DISABLE_GROUPS || "false",
+global.disablegroup = process.env.DISABLE_GROUPS || "true",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.userImages = process.env.USER_IMAGES || "false";
+global.waPresence = process.env.WAPRESENCE || "";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
-  LANG: (process.env.THEME || "BYTE").toUpperCase(),
+  LANG: (process.env.THEME || "Savage").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
