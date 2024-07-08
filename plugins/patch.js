@@ -247,7 +247,7 @@ ${menuThemeFooter}
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 *SAVAGE*
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-
+SAVAGE-more}
     for (const category in categorizedCommands) {
       menuText += `
         ${menuThemeCategoryHeader} *${tiny(category)}* ${menuThemeCategoryFooter}\n`;
