@@ -1714,7 +1714,7 @@ smd(
  );
  smd({
    pattern: "song",
-   alias: ["audio"],
+   alias: ["audio", "song"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
    filename: __filename,
@@ -1742,7 +1742,7 @@ smd(
  });
 smd({
    pattern: "play",
-   alias: ["music"],
+   alias: ["ytmp3", "ytmp4"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
    filename: __filename,
@@ -1781,7 +1781,7 @@ smd({
        return await _0x1c8285.reply("*_Give Me Search Query!_*");
      }
      let _0x2878ec = await yts(_0xca939c);
-     let _0x4186e4 = "*SAVAGE || ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \nCopy any URL of the video you want to download the, then use ytmp4 command to download video from URL \n\n_Results For : " + _0xca939c + "_ \n\n";
+     let _0x4186e4 = "*SAVAGE || ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ* \nCopy any URL of the video you want to download the, then use .play or .ytmp4 or.ytmp3 command to download video send 1 or audio 2 from URL \n\n_Results For : " + _0xca939c + "_ \n\n";
      let _0x463366 = 1;
      for (let _0x308e22 of _0x2878ec.all) {
        _0x4186e4 += " \n*" + _0x463366++ + " : " + _0x308e22.title + (_0x308e22.timestamp ? "(" + _0x308e22.timestamp + ")" : "") + "*\n*Url : " + _0x308e22.url + "*";
