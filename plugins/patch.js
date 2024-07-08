@@ -245,10 +245,9 @@ ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}  
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-*BYTE-MD*
+*SAVAGE*
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-
-${readmore}`;
+BYTE-more}`;
     for (const category in categorizedCommands) {
       menuText += `
         ${menuThemeCategoryHeader} *${tiny(category)}* ${menuThemeCategoryFooter}\n`;
