@@ -1713,7 +1713,7 @@ smd(
    }
  );
  smd({
-   pattern: "song",
+   pattern: "ytdl",
    alias: ["audio", "song"],
    desc: "Downloads audio from youtube.",
    category: "downloader",
