@@ -155,7 +155,7 @@ async(message, match) => {
  try{
 
    message.react("🔍")
-         if (!match) return message.reply(`Give me a user name like ${prefix}github HyHamza`)
+         if (!match) return message.reply(`Give me a user name like ${prefix}github SAVAGE`)
 
          const { data } = await axios(`https://api.github.com/users/${match}`)
    if(!data) return await message.send(`*_Didn't get any results, Provide valid user name!_*`)
@@ -217,7 +217,7 @@ smd({
             let {data} = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${match}&plot=full`);
             if(!data || data.cod == '404') return await message.reply(`*_Please provide valid country name!_*`)
 
-            let imdbt = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` BYTE-IMDB-SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
+            let imdbt = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` SAVAGE-IMDB-SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
             imdbt += "🎬Title      : " + data.Title + "\n";
             imdbt += "📅Year       : " + data.Year + "\n";
             imdbt += "⭐Rated      : " + data.Rated + "\n";
